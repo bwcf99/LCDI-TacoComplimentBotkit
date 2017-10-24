@@ -1,0 +1,17 @@
+{
+  "name": "TacoCompliment",
+  "version": "0.1",
+  "license": "GPL-3.0",
+  "description": "A simple Slackbot to thank/compliment colleagues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lcdi/LCDI-TacoComplimentBotkit"
+  },
+  "scripts": {
+    "build": "node app.js"
+  },
+  "dependencies": {
+    "@slack/client": "^3.14.1",
+    "botkit": "^0.6.4"
+  }
+}
